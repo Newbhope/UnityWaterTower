@@ -18,6 +18,8 @@ public class FXController :Singleton<FXController>
 	[SerializeField] Transform TrailsHolder;                    //Parent for copy of TrailRef.
 
 
+	private AudioSource AudioSource;
+
 	protected override void AwakeSingleton ()
 	{
 		//Hide ref objects.

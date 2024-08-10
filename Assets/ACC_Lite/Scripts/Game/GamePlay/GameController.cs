@@ -48,7 +48,7 @@ public class GameController :MonoBehaviour
 			audioListener.enabled = false;
 		}
 
-		m_PlayerCar = Cars[0];
+		m_PlayerCar = Cars[1];
 		m_PlayerCar.GetComponent<UserControl> ().enabled = true;
 		m_PlayerCar.GetComponent<AudioListener> ().enabled = true;
 

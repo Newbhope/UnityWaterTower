@@ -122,6 +122,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &154600702 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4806209191774628, guid: a5b169273fd795d44829a9ad6bb8e14d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1093510015}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &199397256
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -557,6 +563,96 @@ PrefabInstance:
       propertyPath: NextCameraButton
       value: 
       objectReference: {fileID: 8671914902477523963}
+    - target: {fileID: 114370061917686886, guid: a5b169273fd795d44829a9ad6bb8e14d,
+        type: 3}
+      propertyPath: CamerasPreset.Array.data[0].CameraHolder
+      value: 
+      objectReference: {fileID: 1453714332}
+    - target: {fileID: 114370061917686886, guid: a5b169273fd795d44829a9ad6bb8e14d,
+        type: 3}
+      propertyPath: CamerasPreset.Array.data[1].CameraHolder
+      value: 
+      objectReference: {fileID: 154600702}
+    - target: {fileID: 114370061917686886, guid: a5b169273fd795d44829a9ad6bb8e14d,
+        type: 3}
+      propertyPath: CamerasPreset.Array.data[2].CameraHolder
+      value: 
+      objectReference: {fileID: 1680470684}
+    - target: {fileID: 114370061917686886, guid: a5b169273fd795d44829a9ad6bb8e14d,
+        type: 3}
+      propertyPath: CamerasPreset.Array.data[3].CameraHolder
+      value: 
+      objectReference: {fileID: 2067433070}
+    - target: {fileID: 114370061917686886, guid: a5b169273fd795d44829a9ad6bb8e14d,
+        type: 3}
+      propertyPath: CamerasPreset.Array.data[1].EnableRotation
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114370061917686886, guid: a5b169273fd795d44829a9ad6bb8e14d,
+        type: 3}
+      propertyPath: CamerasPreset.Array.data[3].EnableRotation
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114370061917686886, guid: a5b169273fd795d44829a9ad6bb8e14d,
+        type: 3}
+      propertyPath: CamerasPreset.Array.data[0].SetPositionSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114370061917686886, guid: a5b169273fd795d44829a9ad6bb8e14d,
+        type: 3}
+      propertyPath: CamerasPreset.Array.data[1].SetPositionSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114370061917686886, guid: a5b169273fd795d44829a9ad6bb8e14d,
+        type: 3}
+      propertyPath: CamerasPreset.Array.data[1].SetRotationSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114370061917686886, guid: a5b169273fd795d44829a9ad6bb8e14d,
+        type: 3}
+      propertyPath: CamerasPreset.Array.data[2].SetPositionSpeed
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114370061917686886, guid: a5b169273fd795d44829a9ad6bb8e14d,
+        type: 3}
+      propertyPath: CamerasPreset.Array.data[2].SetRotationSpeed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114370061917686886, guid: a5b169273fd795d44829a9ad6bb8e14d,
+        type: 3}
+      propertyPath: CamerasPreset.Array.data[3].SetPositionSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114370061917686886, guid: a5b169273fd795d44829a9ad6bb8e14d,
+        type: 3}
+      propertyPath: CamerasPreset.Array.data[0].VelocityMultiplier
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 114370061917686886, guid: a5b169273fd795d44829a9ad6bb8e14d,
+        type: 3}
+      propertyPath: CamerasPreset.Array.data[1].VelocityMultiplier
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114370061917686886, guid: a5b169273fd795d44829a9ad6bb8e14d,
+        type: 3}
+      propertyPath: CamerasPreset.Array.data[2].VelocityMultiplier
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114370061917686886, guid: a5b169273fd795d44829a9ad6bb8e14d,
+        type: 3}
+      propertyPath: CamerasPreset.Array.data[3].VelocityMultiplier
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 114370061917686886, guid: a5b169273fd795d44829a9ad6bb8e14d,
+        type: 3}
+      propertyPath: CamerasPreset.Array.data[1].MinDistanceForRotation
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 114370061917686886, guid: a5b169273fd795d44829a9ad6bb8e14d,
+        type: 3}
+      propertyPath: CamerasPreset.Array.data[2].MinDistanceForRotation
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -617,6 +713,18 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3023143f80410e345aef19db1f82c9ea, type: 3}
+--- !u!4 &1453714332 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4845048574213180, guid: a5b169273fd795d44829a9ad6bb8e14d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1093510015}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1680470684 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4442136238857042, guid: a5b169273fd795d44829a9ad6bb8e14d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1093510015}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1717358257
 GameObject:
   m_ObjectHideFlags: 0
@@ -663,6 +771,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &2067433070 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4030173173636524, guid: a5b169273fd795d44829a9ad6bb8e14d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1093510015}
+  m_PrefabAsset: {fileID: 0}
 --- !u!850595691 &2094926396
 LightingSettings:
   m_ObjectHideFlags: 0
